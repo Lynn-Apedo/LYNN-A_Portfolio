@@ -1,0 +1,28 @@
+.section {
+  &_leftSide {
+    &_imgContainer {
+      background-color: grey;
+    }
+    &_textContainer {
+      background-color: salmon;
+    }
+  }
+  &_rightSide {
+    &_socialContainer {
+      background-color: yellowgreen;
+      height: 40vh;
+    }
+    &_Nav {
+      border: 5px solid green;
+      display: flex;
+
+      ul {
+        background-color: pink;
+        text-align: right;
+      }
+      &_logo {
+        background-color: goldenrod;
+      }
+    }
+  }
+}

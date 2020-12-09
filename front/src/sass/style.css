@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3e8;
+  color: yellow;
+}
+
+section {
+  width: 10vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+.leftSide {
+  width: 70vw;
+  height: 100vh;
+  border: 2px solid red;
+}
+
+.rightSide {
+  width: 30vw;
+  height: 100vh;
+  border: 2px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */
